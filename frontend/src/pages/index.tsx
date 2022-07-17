@@ -1,9 +1,14 @@
 import type { NextPage } from 'next';
 import React from 'react';
-import styles from '../styles/Home.module.css';
+import { Container } from '_components/Container';
+import { LandingPage } from '_components/LandingPage';
 
 const Home: NextPage = () => {
-  return <div className={styles.container}>Oi</div>;
+  return (
+    <Container>
+      <LandingPage />
+    </Container>
+  );
 };
 
 export default Home;

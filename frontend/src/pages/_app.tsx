@@ -10,7 +10,7 @@ import { global as Global } from '_styles/global';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={default_theme}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
       <Global />
     </ThemeProvider>
   );
