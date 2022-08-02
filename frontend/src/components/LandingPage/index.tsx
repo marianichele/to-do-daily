@@ -61,7 +61,7 @@ export const LandingPage: React.FC = () => {
         </div>
 
         <HeaderLinks>
-          <a>Login</a>
+          <a href='/signin'>Login</a>
           <a>Signup</a>
         </HeaderLinks>
       </Header>
