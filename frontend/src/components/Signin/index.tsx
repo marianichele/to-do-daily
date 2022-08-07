@@ -2,7 +2,6 @@ import React from 'react';
 import { Buttons, Container, Line, Logo, Signup } from './styles';
 
 export const SigninContainer: React.FC = () => {
-
   return (
     <Container>
       <Logo>
@@ -14,24 +13,23 @@ export const SigninContainer: React.FC = () => {
       <h1>Signin</h1>
 
       <Buttons>
-        <button>
+        <button type="button">
           <img src="/svg/googleIcon.svg" alt="google icon" />
           <p>Continue using Google</p>
         </button>
 
-        <button>
+        <button type="button">
           <img src="/svg/gitIcon.svg" alt="github icon" />
           <p>Continue using Github</p>
         </button>
       </Buttons>
 
-      <Line></Line>
+      <Line />
 
       <Signup>
         <p>Not have account?</p>
-        <a href='/signup'>Signup</a>
+        <a href="/signup">Signup</a>
       </Signup>
-
     </Container>
   );
 };

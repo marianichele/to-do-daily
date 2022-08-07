@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 500px;
-  margin: 222px auto 0 auto;
+  margin: 120px auto 0 auto;
 
-  border: 1px #D2D2D2 solid;
+  border: 1px #d2d2d2 solid;
 
   padding: 41px;
 
@@ -54,13 +54,13 @@ export const Buttons = styled.div`
 
     background-color: transparent;
 
-    border: 1px #D8D8D8 solid;
+    border: 1px #d8d8d8 solid;
     border-radius: 4px;
 
     padding: 10px 0;
 
     font-size: 18px;
-    
+
     cursor: pointer;
   }
 `;
@@ -69,7 +69,7 @@ export const Line = styled.div`
   width: 100%;
   height: 1px;
 
-  background-color: #D8D8D8;
+  background-color: #d8d8d8;
 
   margin: 113px 0 18px 0;
 `;
@@ -85,9 +85,8 @@ export const Signup = styled.div`
   font-size: 18px;
 
   a {
-    color: #FF4F5A;
+    color: #ff4f5a;
 
     cursor: pointer;
   }
-
 `;
