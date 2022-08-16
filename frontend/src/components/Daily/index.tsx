@@ -11,8 +11,9 @@ import {
   LogoutButton,
   Sidebar,
   SidebarIcons,
-  Today,
+  TodayIcon
 } from './styles';
+import { Today } from '_components/Today';
 
 export const DailyContainer: React.FC = () => {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
@@ -62,10 +63,10 @@ export const DailyContainer: React.FC = () => {
 
       <Content>
         <Sidebar>
-          <Today>
+          <TodayIcon>
             <img src="/svg/ion_calendar-clear.svg" alt="profile" />
             <p>Today</p>
-          </Today>
+          </TodayIcon>
 
           <SidebarIcons>
             <img src="/svg/ion_calendar.svg" alt="profile" />
@@ -78,7 +79,7 @@ export const DailyContainer: React.FC = () => {
           </SidebarIcons>
         </Sidebar>
 
-        <div>{/* <h1>Today</h1> */}</div>
+        <div><Today /></div>
       </Content>
     </Container>
   );

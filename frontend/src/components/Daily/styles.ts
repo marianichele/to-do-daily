@@ -7,8 +7,6 @@ export const Header = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  //width: 100%;
-
   background-color: #ff4f5a;
 
   padding: 10px 136px 12px 22px;
@@ -75,7 +73,6 @@ export const DrowpdownIconText = styled.div`
   column-gap: 17px;
 
   padding: 0px 18px 17px 18px;
-  //tlbr
 
   img {
     width: 19px;
@@ -127,7 +124,7 @@ export const Sidebar = styled.div`
   background-color: #f9f9f9;
 `;
 
-export const Today = styled.div`
+export const TodayIcon = styled.div`
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -135,6 +132,8 @@ export const Today = styled.div`
   color: #ff4f5a;
 
   font-size: 24px;
+
+  cursor: pointer;
 `;
 
 export const SidebarIcons = styled.div`
@@ -145,4 +144,6 @@ export const SidebarIcons = styled.div`
   color: #6b6b6b;
 
   font-size: 24px;
+
+  cursor: pointer;
 `;
